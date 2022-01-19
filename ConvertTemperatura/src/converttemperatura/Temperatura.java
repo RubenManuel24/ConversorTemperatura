@@ -105,7 +105,7 @@ public class Temperatura extends javax.swing.JFrame {
                
            double f = Double.parseDouble(valor1.getText());
            double resultado = (f-32)/1.8;
-           valor2.setText(resultado+"ºC");
+           valor2.setText(resultado+" ºC");
             
         } catch (Exception e) {
         }
